@@ -6,6 +6,9 @@ from .models import Order
 from .models import OrderItem
 from .models import Payment
 from django.contrib.auth.admin import UserAdmin
+from .models import Post
+
+admin.site.register(Post)
 
 admin.site.register(User, UserAdmin)
 admin.site.register(Category)

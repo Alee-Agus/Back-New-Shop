@@ -106,11 +106,8 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'es-AR'
 
-TIME_ZONE = 'America/Argentina'
-
 USE_I18N = True
 
-USE_TZ = True
 
 
 # Static files (CSS, JavaScript, Images)
@@ -123,3 +120,7 @@ STATIC_ROOT = BASE_DIR / 'static'
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+TIME_ZONE = 'America/Argentina/Buenos_Aires'
+USE_TZ = True
+USE_DEPRECATED_PYTZ = True
